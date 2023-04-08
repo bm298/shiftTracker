@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/shiftTracker/static/css/main.b942e2c4.css",
-    "main.js": "/shiftTracker/static/js/main.5d4cee86.js",
+    "main.js": "/shiftTracker/static/js/main.c09d41a8.js",
     "static/js/787.afdd3faa.chunk.js": "/shiftTracker/static/js/787.afdd3faa.chunk.js",
     "index.html": "/shiftTracker/index.html",
     "main.b942e2c4.css.map": "/shiftTracker/static/css/main.b942e2c4.css.map",
-    "main.5d4cee86.js.map": "/shiftTracker/static/js/main.5d4cee86.js.map",
+    "main.c09d41a8.js.map": "/shiftTracker/static/js/main.c09d41a8.js.map",
     "787.afdd3faa.chunk.js.map": "/shiftTracker/static/js/787.afdd3faa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b942e2c4.css",
-    "static/js/main.5d4cee86.js"
+    "static/js/main.c09d41a8.js"
   ]
 }
