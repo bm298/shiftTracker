@@ -8,7 +8,7 @@ import SideDeleteShiftsEl from "./sideDeleteShifts";
 
 export default function MainPage(){
 // STATE START
-    const [notes, setNotes] = React.useState(storedValues)
+    const [notes, setNotes] = React.useState()
     const [isChecked, setisChecked]= React.useState(false)
     const [sortedDown, setSortedDown]= React.useState(true)
     const [sortedUp, setSortedUp]= React.useState(true)
