@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-/* .container{
-  width:80%;
-  margin: 0 auto;
-  height: 100vh;
-  background-color: rgba(0, 0, 255, 0.05);
-} */
-
 .tasks{
 width: 100%;
 display: flex;

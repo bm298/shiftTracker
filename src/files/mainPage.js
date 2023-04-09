@@ -8,7 +8,9 @@ import SideDeleteShiftsEl from "./sideDeleteShifts";
 
 export default function MainPage(){
 // STATE START
-    const [notes, setNotes] = React.useState()
+    const [notes, setNotes] = React.useState(storedValues())
+    console.log(notes)
+    console.log(storedValues())
     const [isChecked, setisChecked]= React.useState(false)
     const [sortedDown, setSortedDown]= React.useState(true)
     const [sortedUp, setSortedUp]= React.useState(true)
@@ -33,18 +35,28 @@ export default function MainPage(){
         AmountLeft:"",
     })
 
+
+
 // FUNCTIONS START
 
+    // get localStorage values
     function storedValues(){
-            let getStoredValues= localStorage.getItem("form")
-            return JSON.parse(getStoredValues)
+        let getStoredValues= localStorage.getItem("form")
+        console.log(getStoredValues)
+        if (getStoredValues){
+            return JSON.parse(localStorage.getItem("form"))
+        }
+        else{
+            return []
+        }
     }    
+
+    console.log(notes.length)
 
     // USE EFFECT HOOKS
 
         React.useEffect(() => {
             localStorage.setItem("form", JSON.stringify(notes) )
-            console.log(notes)
         },[notes])
  
         React.useEffect(() => {
